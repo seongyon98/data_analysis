@@ -1,0 +1,28 @@
+customer_state,esporte_lazer_customers_state,fashion_esporte_customers_state,total,region,purchase_rate
+Acre,9,0.0,9.0,inland,0.0989010989010989
+Alagoas,32,0.0,32.0,coastal,0.3516483516483517
+Amapá,7,0.0,7.0,coastal,0.07692307692307693
+Amazonas,12,0.0,12.0,inland,0.13186813186813187
+Bahia,286,2.0,288.0,coastal,3.1648351648351647
+Ceará,91,0.0,91.0,coastal,1.0
+Distrito Federal,218,1.0,219.0,inland,2.4065934065934065
+Espírito Santo,173,0.0,173.0,coastal,1.901098901098901
+Goiás,163,0.0,163.0,inland,0.38173302107728335
+Maranhão,65,1.0,66.0,coastal,0.15456674473067916
+Mato Grosso,73,0.0,73.0,inland,0.17096018735362997
+Mato Grosso do Sul,74,0.0,74.0,inland,0.17330210772833723
+Minas Gerais,945,2.0,947.0,inland,2.217798594847775
+Paraná,476,1.0,477.0,coastal,1.117096018735363
+Paraíba,31,0.0,31.0,coastal,0.07259953161592506
+Pará,81,4.0,85.0,coastal,0.1990632318501171
+Pernambuco,140,0.0,140.0,coastal,0.32786885245901637
+Piauí,33,0.0,33.0,coastal,0.07728337236533958
+Rio Grande do Norte,22,0.0,22.0,coastal,0.05152224824355972
+Rio Grande do Sul,467,1.0,468.0,coastal,1.0960187353629978
+Rio de Janeiro,1015,2.0,1017.0,coastal,2.3817330210772836
+Rondônia,19,0.0,19.0,inland,0.04449648711943794
+Roraima,8,0.0,8.0,inland,0.01873536299765808
+Santa Catarina,356,3.0,359.0,coastal,0.8407494145199064
+Sergipe,33,0.0,33.0,coastal,0.07728337236533958
+São Paulo,3574,12.0,3586.0,coastal,8.398126463700235
+Tocantins,25,0.0,25.0,inland,0.0585480093676815
