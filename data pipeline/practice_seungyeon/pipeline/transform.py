@@ -1,0 +1,37 @@
+import os
+import pandas as pd
+
+
+def transformer(temp_path, batch_date, df, table_name):
+
+    path = create_path(temp_path, batch_date)
+
+    save_to_file(df, path, table_name)
+
+    return df
+
+
+def create_path(temp_path, batch_date):
+
+    _y = batch_date[:4]
+    _m = batch_date[4:6]
+    _d = batch_date[6:]
+
+    _path = os.path.join(temp_path, "lecture", f"yyyy={_y}", f"mm={_m}", f"dd={_d}")
+
+    return _path
+
+
+def save_to_file(df, path, table_name):
+
+    if len(df) > 0:
+        # 경로 생성
+        os.makedirs(path, mode=777)
+        save_path = os.path.join(path, f"{table_name}.csv")
+
+        # 파일로 저장
+        df.to_csv(save_path, index=False)
+        return True
+    else:
+        print("EMPTY FILE")
+        return False
